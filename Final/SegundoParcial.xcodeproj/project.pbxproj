@@ -16,6 +16,11 @@
 		AC06F048218755320086C3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC06F046218755320086C3D7 /* LaunchScreen.storyboard */; };
 		AC06F058218782DF0086C3D7 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06F057218782DF0086C3D7 /* TriviaViewController.swift */; };
 		AC06F05A218784080086C3D7 /* ComprarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC06F059218784080086C3D7 /* ComprarViewController.swift */; };
+		FA5C9E7022949541001BD027 /* cancionesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C9E6F22949541001BD027 /* cancionesTableViewController.swift */; };
+		FA5C9E722294954D001BD027 /* canciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C9E712294954D001BD027 /* canciones.swift */; };
+		FAA6EBC42294CDB2007330A9 /* Album2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6EBC32294CDB2007330A9 /* Album2TableViewController.swift */; };
+		FAA6EBC62294D3FE007330A9 /* DetalAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6EBC52294D3FE007330A9 /* DetalAlbumViewController.swift */; };
+		FACB859A2295BAC600A2DBA0 /* Album3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85992295BAC600A2DBA0 /* Album3TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		AC06F049218755320086C3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC06F057218782DF0086C3D7 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		AC06F059218784080086C3D7 /* ComprarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprarViewController.swift; sourceTree = "<group>"; };
+		FA5C9E6F22949541001BD027 /* cancionesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cancionesTableViewController.swift; sourceTree = "<group>"; };
+		FA5C9E712294954D001BD027 /* canciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canciones.swift; sourceTree = "<group>"; };
+		FAA6EBC32294CDB2007330A9 /* Album2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album2TableViewController.swift; sourceTree = "<group>"; };
+		FAA6EBC52294D3FE007330A9 /* DetalAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalAlbumViewController.swift; sourceTree = "<group>"; };
+		FACB85992295BAC600A2DBA0 /* Album3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album3TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +76,17 @@
 				AC06F03F218755310086C3D7 /* ViewController.swift */,
 				AC06F057218782DF0086C3D7 /* TriviaViewController.swift */,
 				AC06F059218784080086C3D7 /* ComprarViewController.swift */,
+				FA5C9E712294954D001BD027 /* canciones.swift */,
+				FA5C9E6F22949541001BD027 /* cancionesTableViewController.swift */,
+				FACB85992295BAC600A2DBA0 /* Album3TableViewController.swift */,
+				FAA6EBC32294CDB2007330A9 /* Album2TableViewController.swift */,
 				AC06F041218755310086C3D7 /* Main.storyboard */,
 				637F41DF2189446400C0EFC3 /* ResultadosViewController.swift */,
 				63FBB06421893C6400C68A6B /* DescuentoViewController.swift */,
 				AC06F044218755320086C3D7 /* Assets.xcassets */,
 				AC06F046218755320086C3D7 /* LaunchScreen.storyboard */,
 				AC06F049218755320086C3D7 /* Info.plist */,
+				FAA6EBC52294D3FE007330A9 /* DetalAlbumViewController.swift */,
 			);
 			path = SegundoParcial;
 			sourceTree = "<group>";
@@ -148,10 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA6EBC42294CDB2007330A9 /* Album2TableViewController.swift in Sources */,
 				637F41E02189446400C0EFC3 /* ResultadosViewController.swift in Sources */,
 				AC06F05A218784080086C3D7 /* ComprarViewController.swift in Sources */,
 				AC06F040218755310086C3D7 /* ViewController.swift in Sources */,
+				FACB859A2295BAC600A2DBA0 /* Album3TableViewController.swift in Sources */,
+				FA5C9E7022949541001BD027 /* cancionesTableViewController.swift in Sources */,
 				63FBB06521893C6400C68A6B /* DescuentoViewController.swift in Sources */,
+				FA5C9E722294954D001BD027 /* canciones.swift in Sources */,
+				FAA6EBC62294D3FE007330A9 /* DetalAlbumViewController.swift in Sources */,
 				AC06F058218782DF0086C3D7 /* TriviaViewController.swift in Sources */,
 				AC06F03E218755310086C3D7 /* AppDelegate.swift in Sources */,
 			);
